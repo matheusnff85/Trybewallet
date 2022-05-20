@@ -1,9 +1,13 @@
 # Trybewallet
 Neste repositório contém o codigo desenvolvido no projeto Trybewallet durante o curso da [Trybe](https://www.betrybe.com/) feito pelo aluno [Matheus Marinho](https://www.linkedin.com/in/matheus-marinhodsp/).
 
+---
+
 ## Tecnologias usadas
 
 HTML, CSS, HOFs, Javascript, React, Redux, Operações Assíncronas, Requisições a API's.
+
+---
 
 ## Demonstração de uso
 
@@ -11,3 +15,5 @@ O Projeto em si tem a finalidade de criar uma "carteira de despesas" fazendo a c
 Além disso possui dois botões um para alteração da despesa alvo e um para exclusão da mesma.
 
 ![demonstração de uso da aplicação](giftrybewallet.gif)
+
+---
