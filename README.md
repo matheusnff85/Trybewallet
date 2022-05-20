@@ -5,7 +5,7 @@ Neste repositório contém o codigo desenvolvido no projeto Trybewallet durante 
 
 ## Tecnologias usadas
 
-HTML, CSS, HOFs, Javascript, React, Redux, Operações Assíncronas, Requisições a API's.
+HTML, CSS, HOFs, Javascript, React, Redux, Operações Assíncronas e Requisições a API's.
 
 ---
 
