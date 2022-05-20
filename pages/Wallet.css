@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wallet-header {
+  align-items: center;
+  background-color: rgb(56, 56, 56);
+  border: 1px solid rgb(65, 64, 64);
+  box-shadow: 1.5px 5px 9px rgb(5, 56, 32);
+  display: flex;
+  flex-flow: row nowrap;
+  height: 12vh;
+  justify-content: flex-end;
+}
+
+.wallet-header h4 {
+  color: whitesmoke;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.total-div {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.expense-form {
+  background-color: rgb(87, 85, 85);
+  border: 3px solid rgb(85, 88, 83);
+  box-shadow: 1px 1px 7px 3px rgb(5, 56, 32);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+
+.expense-form input {
+  border-radius: 5px;
+  margin-left: 5px;
+  padding: 2px;
+  width: 65%;
+}
+
+.expense-form select {
+  margin-left: 5px;
+  padding: 2px;
+}
+
+.expense-form label {
+  color: whitesmoke;
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 8px;
+}
+
+.expense-form button {
+  align-self: center;
+  background-color: rgb(71, 167, 95);
+  border: 2px solid black;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  height: auto;
+  padding: 3px;
+  width: 10%;
+}
+
+.expense-form button:active {
+  align-self: center;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  height: auto;
+  padding: 3px;
+  width: 10%;
+}
+
+td , th {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 10px;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child( even ) {
+  background-color: white;
+}
+
+tr:nth-child( odd ) {
+  background-color: rgb(133, 148, 143);
+  color: white;
+}
+
+th {
+  background-color: rgb(71, 71, 71);
+  color: white;
+}
+
+table {
+  border: 2px solid rgb(200, 200, 200);
+  border-collapse: collapse;
+  box-shadow: 1px 1px 7px 3px rgb(5, 56, 32);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin: auto;
+  margin-top: 2%;
+  width: 90%;
+}
+
+.edit-btn {
+  background-color: rgb(81, 141, 253);
+  border: 2px solid black;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  margin: 0.5px;
+  padding: 3px;
+}
+
+.remove-btn {
+  background-color: rgb(255, 68, 68);
+  border: 2px solid black;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  margin: 0.5px;
+  padding: 3px;
+}
+
+.edit-btn:active , .remove-btn:active {
+  background-color: rgb(208, 255, 154);
+}
